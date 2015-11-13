@@ -4,16 +4,16 @@ We want to analyze student-generated JavaScript code (for our CS platform: https
 
 Planned Implementation
 ===========
-Put up Rails Blank Project with just a homepage, make the accessor enter a password before progression
-After password is entered, verify and set cookie
-Show text editor, along with dropdown to select three diff types of analysis
-black list selector
-white list selector
-hierarchy that says what we should expect in what
-one possible implementation for this is to arrays that are built and matched
-Query info set and make POST request to rails APIS
-rails will take the white list, black list, and hierarchy into account and give cumulative list of errors
-The errors will be gathered as a response to the front end and displayed for the user to see
+1. Put up Rails Blank Project with just a homepage, make the accessor enter a password before progression
+2. After password is entered, verify and set cookie
+3. Show text editor, along with dropdown to select three diff types of analysis
+    a. black list selector
+    b. white list selector
+    c. hierarchy that says what we should expect in what
+      I. one possible implementation for this is to arrays that are built and matched
+4.Query info set and make POST request to rails APIS
+5.Rails controller will take the white list, black list, and hierarchy into account and give cumulative list of errors
+6.The errors will be gathered as a response to the front end and displayed for the user to see
 
 Dates of breaking the project apart:
 
