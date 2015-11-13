@@ -1,0 +1,2 @@
+# JSChallengeFramework-KhanAcademy
+We want to analyze student-generated JavaScript code (for our CS platform: https://www.khanacademy.org/cs) and determine if certain aspects of their code is written as expected. We want this so that we can provide advanced unit testing for a student's program - be able to provide them with informed feedback (that's better than what normal unit testing can provide, but likely not as good as what a human could provide).
