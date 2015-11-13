@@ -17,8 +17,8 @@ Planned Implementation
 
 Dates of breaking the project apart:
 
-Friday/13th:
-Simply put up rails projects, front end, password verification, and text editor, then link to Heroku and deploy live. Research documentation and functionality of both Espirma and Acorn. Begin thinking about which parser should be used. Just from the initial glance, I'm thinking Acorn. T
+Friday/13th (started around 5PM):
+Simply put up rails projects, front end, password verification, and text editor, then link to Heroku and deploy live. Research documentation and functionality of both Espirma and Acorn. Begin thinking about which parser should be used. Just from the initial glance, I'm thinking Acorn.
 
 
 
