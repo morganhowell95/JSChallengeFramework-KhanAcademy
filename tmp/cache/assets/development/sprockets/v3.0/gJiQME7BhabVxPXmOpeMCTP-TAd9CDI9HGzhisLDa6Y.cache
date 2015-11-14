@@ -1,0 +1,7 @@
+I"k(function() {
+  $(document).ready(function() {
+    return console.log("alert");
+  });
+
+}).call(this);
+:ET

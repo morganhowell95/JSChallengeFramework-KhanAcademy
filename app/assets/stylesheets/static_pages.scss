@@ -1,0 +1,103 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.thinnav
+{
+	height: 90px;
+}
+
+.textback
+{
+	height: 400px;
+	width: 1000px;
+	left: 0;
+	right: 0;
+	margin-top: 100px;
+	padding-left: 40px;
+	padding-right: 30px;
+	margin-left: 20px;
+}
+
+#resetlist
+{
+	margin-bottom: 60px;
+	margin-top: -13px;
+}
+
+#list-container
+{
+	height: 100px;
+	overflow-y: scroll;
+	margin-bottom: 30px;
+	cursor: pointer;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+#structuremake
+{
+	background-color: rgb(240,255,240);
+	margin-left: 40px;
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+
+.levelselect-0
+{
+	position: absolute;
+	left: 100px;
+}
+
+.levelselect-1
+{
+	
+	left: 200px;
+	position: absolute;
+}
+
+.levelselect-2
+{
+	left: 300px;
+	position: absolute;
+}
+
+.levelselect-3
+{
+	left: 400px;
+	position: absolute;
+}
+
+.levelselect-4
+{
+	left: 500px;
+	position: absolute;
+	overflow-x: scroll;
+}
+
+
+.submit
+{
+	margin-top: 5px;
+	float: right;
+}
+
+#logo
+{
+	color: white;
+	font-size: 30px;
+}
+
+#subtitle
+{
+	color: white;
+}
+
+#selected
+{
+	background-color: #6495ED;
+}
