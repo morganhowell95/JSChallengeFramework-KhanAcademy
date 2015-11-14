@@ -5,13 +5,17 @@ We want to analyze student-generated JavaScript code (for our CS platform: https
 Planned Implementation
 ===========
 1. Put up Rails Blank Project with just a homepage, make user enter a password before access
+
 2. Show text editor, along with dropdown to select three diff types of analysis
     a. Black list selector
     b. White list selector
     c. Hierarchy that says what keywords we should expected embedded in others 
       I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the relations to the currect AST. 
+
 3.Query info set and make POST request to Rails API for all UI selections, including white and black list.
+
 4.Rails controller will take the white list, black list, and hierarchy into account and give cumulative list of errors
+
 5.The errors will be gathered as a response to the front end and displayed for the user to see
 
 Dates of breaking the project apart:
