@@ -73,5 +73,30 @@ $(document).ready( function(){
 		$description.html(key_word);
 	});
 
+	$('#resetstructure').click( function(evt){
+		var component = " \
+		<hr>\
+		<div>\
+		<div class='btn-group'> \
+			  <button type='button' class='level-select levelselect-"+ String(0) +" btn btn-default dropdown-toggle' data-toggle='dropdown' data-level='"+ String(0) +"' aria-haspopup='true' aria-expanded='false'>\
+			  Level "+ String(0) +"<span class='caret'></span>\
+			  </button>\
+			  </h2>\
+			  <ul class='dropdown-menu level-select levelselect-"+ String(0) +"'>\
+			    <li><a>for</a></li>\
+			    <li><a>if</a></li>\
+			    <li><a>switch</a></li>\
+			    <li><a>declare var</a></li>\
+			    <li><a>while</a></li>\
+			    <li><a>using 'this'</a></li>\
+			  </ul>\
+			</div>\
+			<h2 id='keyword-describe-"+ String(0) +"'> \
+		</div>\
+		";
+		$('#structuremake').html(component);
+		}
+	);
+
 
 } );
