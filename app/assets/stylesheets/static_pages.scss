@@ -79,6 +79,49 @@
 	overflow-x: scroll;
 }
 
+#keyword-describe-0
+{
+	position: absolute;
+	padding-left: 120px;
+	display: inline-flex;
+}
+
+#keyword-describe-1
+{
+	position: absolute;
+	padding-left: 220px;
+	display: inline-flex;
+}
+
+#keyword-describe-2
+{
+	position: absolute;
+	padding-left: 320px;
+	display: inline-flex;
+}
+
+#keyword-describe-3
+{
+	position: absolute;
+	padding-left: 420px;
+	display: inline-flex;
+}
+
+#keyword-describe-4
+{
+	position: absolute;
+	padding-left: 520px;
+	display: inline-flex;
+}
+.logo
+{
+	top: 0;
+    display: inline;
+    z-index: 10;
+    position: absolute;
+    right: 23px;
+    height: 93px;
+}
 
 .submit
 {

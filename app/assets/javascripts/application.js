@@ -31,21 +31,24 @@ $(document).ready( function(){
 	$("#structuremake").on('click', ".level-select",function(evt) {
 		var prev_level = parseInt($(evt.target).data("level"));
 		var next_level = prev_level+1;
-		if(next_level>4 || $(evt.target).prop("entered") == "true"){
+
+		if(next_level>4 || $(evt.target).attr("entered") == "true" || !$(evt.target).is("button") ){
 			return;
 		}
+
 		else{
 			$(evt.target).attr("entered", "true");
 		}
-		console.log(next_level);
 
 		var component = " \
 		<hr>\
+		<div>\
 		<div class='btn-group'> \
 			  <button type='button' class='level-select levelselect-"+ String(next_level) +" btn btn-default dropdown-toggle' data-toggle='dropdown' data-level='"+ String(next_level) +"' aria-haspopup='true' aria-expanded='false'>\
 			  Level "+ String(next_level) +"<span class='caret'></span>\
 			  </button>\
-			  <ul class='dropdown-menu'>\
+			  </h2>\
+			  <ul class='dropdown-menu level-select levelselect-"+ String(next_level) +"'>\
 			    <li><a>for</a></li>\
 			    <li><a>if</a></li>\
 			    <li><a>switch</a></li>\
@@ -54,9 +57,20 @@ $(document).ready( function(){
 			    <li><a>using 'this'</a></li>\
 			  </ul>\
 			</div>\
+			<h2 id='keyword-describe-"+ String(next_level) +"'> \
+		</div>\
 		";
 
 		$('#structuremake').append(component);
+	});
+
+
+	$("#structuremake").on('click', ".dropdown-menu li a", function(evt) {
+		var key_word = evt.target.innerHTML;
+		var button = $(evt.target).parent().parent().parent().children('button');
+		var level = $(button).data("level");
+		var $description =  $(evt.target).parent().parent().parent().parent().children('h2');
+		$description.html(key_word);
 	});
 
 
