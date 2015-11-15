@@ -4,7 +4,7 @@ We want to analyze student-generated JavaScript code (for our CS platform: https
 
 Planned Implementation
 ===========
-1. Put up Rails Blank Project with just a homepage, make user enter a password before access
+1. Init blank Rails project with just a homepage, make user enter a password before access
 
 2. Show text editor, along with dropdown to select three diff types of analysis
     a. Black list selector
