@@ -10,7 +10,7 @@ Planned Implementation
     a. Black list selector
     b. White list selector
     c. Hierarchy that says what keywords we should expected embedded in others 
-      I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the relations to the currect AST. 
+      I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the relations to the current AST. 
 
 3.Query info set and make POST request to Rails API for all UI selections, including white and black list.
 
