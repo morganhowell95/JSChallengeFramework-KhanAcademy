@@ -20161,3 +20161,3367 @@ Processing by StaticPagesController#set_auth as HTML
   Rendered static_pages/home.html.erb within layouts/application (0.5ms)
   Rendered layouts/_header.html.erb (1.0ms)
 Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-19 23:47:17 -0500
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-819b47248c79c23efe3e251deb993181c1acd6aa3c2e9d0cb12167958384140f.js?body=1" for ::1 at 2015-11-19 23:47:18 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-19 23:47:20 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pSh+F59HW2YSkaJ+GVF64as0BK31Sh3uN9V/GWkcDpfURIg+EG/sVQtgiaxBYLFjktGzxj58mYuDpdVRvYwspg==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:00:43 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nX5sIhRAplIYlgytDUfmlTTvT6tdpZ/hB6PYjr2A1UDsEpoLm2gRYQFnJ39Vdi0XDQr4wJaTG4Sz03LGaRD3cQ==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 351ms (Views: 349.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started GET "/assets/application.self-23364652eef8a18ab459bbd9221e0f3758675371168b52cfe76b1a19faa72382.js?body=1" for ::1 at 2015-11-20 00:00:44 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:06:00 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pSh+F59HW2YSkaJ+GVF64as0BK31Sh3uN9V/GWkcDpfURIg+EG/sVQtgiaxBYLFjktGzxj58mYuDpdVRvYwspg==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms)
+
+Sprockets::FileNotFound (couldn't find file 'acorn' with type 'application/javascript'):
+  app/assets/javascripts/application.js:9
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1406953162257969437_70135081788940'
+  app/controllers/static_pages_controller.rb:13:in `set_auth'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (42.3ms)
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:08:53 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nX5sIhRAplIYlgytDUfmlTTvT6tdpZ/hB6PYjr2A1UDsEpoLm2gRYQFnJ39Vdi0XDQr4wJaTG4Sz03LGaRD3cQ==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 263ms (Views: 261.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/acorn/src/index.self-8b6978a37e74b75187b892e28db1e177b90c0a3522a1852b9f0b309c1a353934.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started GET "/assets/application.self-014bf06dd01bc990f8fa1d7de75433ae072babb18a0ee5dd0693903c182f797f.js?body=1" for ::1 at 2015-11-20 00:08:54 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:08:57 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nX5sIhRAplIYlgytDUfmlTTvT6tdpZ/hB6PYjr2A1UDsEpoLm2gRYQFnJ39Vdi0XDQr4wJaTG4Sz03LGaRD3cQ==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 241ms (Views: 240.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/acorn/src/index.self-8b6978a37e74b75187b892e28db1e177b90c0a3522a1852b9f0b309c1a353934.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started GET "/assets/application.self-014bf06dd01bc990f8fa1d7de75433ae072babb18a0ee5dd0693903c182f797f.js?body=1" for ::1 at 2015-11-20 00:08:58 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:13:55 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nX5sIhRAplIYlgytDUfmlTTvT6tdpZ/hB6PYjr2A1UDsEpoLm2gRYQFnJ39Vdi0XDQr4wJaTG4Sz03LGaRD3cQ==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+Sprockets::FileNotFound (couldn't find file 'dist/acorn' with type 'application/javascript'):
+  app/assets/javascripts/application.js:9
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1406953162257969437_70135081788940'
+  app/controllers/static_pages_controller.rb:13:in `set_auth'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (10.0ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (30.1ms)
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:14:06 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nX5sIhRAplIYlgytDUfmlTTvT6tdpZ/hB6PYjr2A1UDsEpoLm2gRYQFnJ39Vdi0XDQr4wJaTG4Sz03LGaRD3cQ==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+Sprockets::FileNotFound (couldn't find file 'dist/acorn.js' with type 'application/javascript'):
+  app/assets/javascripts/application.js:9
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1406953162257969437_70135081788940'
+  app/controllers/static_pages_controller.rb:13:in `set_auth'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (10.2ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (31.1ms)
+
+
+Started GET "/set_auth" for ::1 at 2015-11-20 00:14:08 -0500
+
+ActionController::RoutingError (No route matches [GET] "/set_auth"):
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-20 00:14:29 -0500
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 307ms (Views: 305.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:14:29 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:14:32 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 143ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:14:53 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 299ms (Views: 297.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:14:53 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:14:53 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started GET "/assets/application.self-1523f66839a621d794004a47e209ad33f518888bd362da8706b61f2e6473938d.js?body=1" for ::1 at 2015-11-20 00:14:54 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:15:56 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 267ms (Views: 266.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:15:56 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:16:24 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 117ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:16:25 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:17:29 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 270ms (Views: 269.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:17:29 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:21:20 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:21:20 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:21:30 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 161ms (Views: 160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:21:30 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:21:46 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 126ms (Views: 124.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:21:46 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:22:17 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 127ms (Views: 126.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/static_pages.self-0de40f0d607a2737cdc1916bf493d14c5607dc8fba0ea4a13b3eb877c3394391.css?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:22:17 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:22:58 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 2078ms (Views: 2077.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/static_pages.self-a115b9c433d92270f1beb985576aa8a985a1084deab9379a2c73bf3a95f0dbe3.css?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:23:00 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:23:01 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:23:01 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:23:01 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:23:01 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:23:03 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/static_pages.self-a115b9c433d92270f1beb985576aa8a985a1084deab9379a2c73bf3a95f0dbe3.css?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:23:03 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:24:38 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 1914ms (Views: 1913.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/static_pages.self-5157df40d6e9d85850dae4be0a5492e8ba819b366b9278240c2b6bd05981041e.css?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:24:40 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:26:53 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 200 OK in 120ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/static_pages.self-5157df40d6e9d85850dae4be0a5492e8ba819b366b9278240c2b6bd05981041e.css?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:26:53 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:28:01 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/static_pages.self-5157df40d6e9d85850dae4be0a5492e8ba819b366b9278240c2b6bd05981041e.css?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:28:01 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:28:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:28:02 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:28:10 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 261ms (Views: 260.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-5157df40d6e9d85850dae4be0a5492e8ba819b366b9278240c2b6bd05981041e.css?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:28:11 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:28:16 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/static_pages.self-5157df40d6e9d85850dae4be0a5492e8ba819b366b9278240c2b6bd05981041e.css?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:28:16 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:29:04 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 2233ms (Views: 2231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-449ff14e0e6f12771c0d26f20b4d34051523e9970ec5076d590a44baccb9ba12.css?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:29:07 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:31:10 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 232ms (Views: 231.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/static_pages.self-449ff14e0e6f12771c0d26f20b4d34051523e9970ec5076d590a44baccb9ba12.css?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:31:11 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:32:11 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-449ff14e0e6f12771c0d26f20b4d34051523e9970ec5076d590a44baccb9ba12.css?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:32:12 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:33:29 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 1923ms (Views: 1922.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-d726c3a0f4ebf2b5a18fb1bc8929ce5b2738ef75cc47eb4e9df2f712c1248a13.css?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:33:31 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:34:11 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 1797ms (Views: 1796.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:34:12 -0500
+
+
+Started GET "/assets/static_pages.self-b618f3c80d530789aaa635fb98af7aaf89e0663a2f738b2a36eef56a86d11af7.css?body=1" for ::1 at 2015-11-20 00:34:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:34:12 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:34:12 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:34:12 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:34:12 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:34:13 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:34:42 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 108ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/static_pages.self-b618f3c80d530789aaa635fb98af7aaf89e0663a2f738b2a36eef56a86d11af7.css?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:34:42 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:34:43 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:34:43 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:34:43 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:34:43 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:34:43 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:35:06 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 1897ms (Views: 1896.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/static_pages.self-88c7b7e72785484d9d10ea8f507856659393ea9e897e0d60d482591cec7bfb0f.css?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:35:08 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:35:13 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 200 OK in 123ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:35:13 -0500
+
+
+Started GET "/assets/static_pages.self-88c7b7e72785484d9d10ea8f507856659393ea9e897e0d60d482591cec7bfb0f.css?body=1" for ::1 at 2015-11-20 00:35:13 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:35:14 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:36:19 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 1888ms (Views: 1887.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-66cbdb1bbd78419a6013132db70a7ac10c4148e54beaf2d1069cb89d8f46d257.css?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:36:21 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:36:32 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 1935ms (Views: 1933.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/static_pages.self-7519a5e8ce99fc5f53a8982ba938d01bd4008102ba3d4de2f8b3232fc3f2d429.css?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:36:34 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:37:00 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 200 OK in 1893ms (Views: 1892.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/static_pages.self-5b9d238caf49889e7057cfdeca0e5b99bb58512bc5fe092452e53713c6f292b3.css?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:37:02 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:37:20 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 1980ms (Views: 1979.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/static_pages.self-39cf07ff673315b43a4737a3dfb4a230c777b8038ab1413f51db1dd1df82e19d.css?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:37:22 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:37:36 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 1746ms (Views: 1745.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/static_pages.self-27866764b2fd3ea849ac84ea648e8264cad4e75fbfc8dd4d8fb739e9f81994d0.css?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:37:38 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:37:50 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 1951ms (Views: 1950.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/static_pages.self-d6e0587cf54972df8d61ea0c46bdcfb6d335d09eeeaadd9d6ae949be188c4665.css?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:37:52 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:38:20 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 1877ms (Views: 1876.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/static_pages.self-a9179ba9692753e379b72490a039e89cf448bf62535ce40ab6791957cdbca326.css?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:38:22 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:38:40 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 1960ms (Views: 1959.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/static_pages.self-db3aa66add49428aec4d6d3ca81ed839a99b2cfd9a5c69e7547d05a1e93573d1.css?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:38:42 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:38:43 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:38:59 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+Completed 200 OK in 1782ms (Views: 1781.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/static_pages.self-57fbb7df73287d41ab44bf422c10f902a69bbe815c7b74a8c794f35ebdbdc479.css?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:39:01 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:39:44 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 2059ms (Views: 2058.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/static_pages.self-7f4f6d8ade1fee89866aa82fb28b397236f94e0379158246bc1ba3ef0b760326.css?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:39:46 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:39:59 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 1838ms (Views: 1836.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/static_pages.self-9fc13f6d3ab1d8fd52c6cd7f4cc5a9c77e499aed1ba0ae2c5aa3730b1f8085c2.css?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:40:01 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:40:19 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 1929ms (Views: 1928.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-d54d79aeef8a27642f4f6da023d0b9b9b64429a0f4c652857655b1d6444f8cb7.css?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:40:21 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:40:44 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+Completed 200 OK in 1754ms (Views: 1752.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/static_pages.self-15e89da2d4603f0f84f2355d8e6a85a48fc286d50284a275cb50a3c4bdfa3440.css?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:40:46 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:40:57 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 2080ms (Views: 2078.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/static_pages.self-cb53d852b8e6c10d8266baeeff0515bcc196fe57fc5e4ea0b5590657175d74ef.css?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:40:59 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:01 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/static_pages.self-cb53d852b8e6c10d8266baeeff0515bcc196fe57fc5e4ea0b5590657175d74ef.css?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:01 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:13 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 1870ms (Views: 1869.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/static_pages.self-0dad7b8fb1081ae009bb67bc90eaf32562eec8452c7ffc1aabcf873ea7920e02.css?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:15 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:22 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 1939ms (Views: 1937.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/static_pages.self-3a3bbd83fb9dd2e8c1f65f2980ed73b9877882de0149a7153388d5bf40002928.css?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:24 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:30 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 1864ms (Views: 1863.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/static_pages.self-6ff45f1f160f6306813786da41f5443fa82d6c016e7f67182adf01e271e9dcf6.css?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:32 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:45 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 1989ms (Views: 1987.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/static_pages.self-ae7ff3eed52cd4449def64c3753d17a2aad2d684067e8ee9fc900885d75b3f93.css?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:48 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:49 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 122ms (Views: 121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-ae7ff3eed52cd4449def64c3753d17a2aad2d684067e8ee9fc900885d75b3f93.css?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:49 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:41:57 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 1880ms (Views: 1879.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/static_pages.self-5a0c49b003d772656fc376fac5932581fddfc60d8fd06c89b5554de7d086b6bc.css?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:41:59 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:42:06 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 1974ms (Views: 1973.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/static_pages.self-927ff583ceee1c505f50d4cbf493ee21cb7a9c9640023bc4ae3976b3fb8dca35.css?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:42:08 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:42:17 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 1768ms (Views: 1767.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-f45cb462b2d8f3bdefb9c3410bdfb172dfc51c9b85c5eae576f8ea2c80222370.css?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:42:19 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:42:25 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 2007ms (Views: 2006.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-7289583409738a199ac0dcc72c7066013af3c42616b2edc1975a64b68b4c05d5.css?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:42:28 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:42:38 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 1854ms (Views: 1853.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/static_pages.self-1b2522b5e31cefa5bb3b053e94bee095006d069736d1920773b83eda397d181f.css?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:42:40 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:42:45 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 2016ms (Views: 2014.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/static_pages.self-4c1bc55f4f76499103d84b1de158c0aa46a1c16aee8fc3460f020c649d510638.css?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started GET "/assets/application.self-fcc7e67865bdbf3cdba62111e1374cb2b54a141096c8db3be0e7ed8d38feef05.js?body=1" for ::1 at 2015-11-20 00:42:48 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:43:42 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 123ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/static_pages.self-4c1bc55f4f76499103d84b1de158c0aa46a1c16aee8fc3460f020c649d510638.css?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:43:42 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:45:13 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 1833ms (Views: 1832.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/static_pages.self-9e8930363e825c2e4162304baf0456bdf753d8cb87c19fe05a49929eea7fdd9c.css?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:45:15 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:45:53 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 2090ms (Views: 2089.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:45:55 -0500
+
+
+Started GET "/assets/static_pages.self-84b3d7005226494c158b5a77ab0317a6dc338e6ff8c760a3ac69cdb1aadd9562.css?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:45:56 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:45:58 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/static_pages.self-84b3d7005226494c158b5a77ab0317a6dc338e6ff8c760a3ac69cdb1aadd9562.css?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:45:58 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:46:10 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 1846ms (Views: 1845.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/static_pages.self-4d7ac3e7f8f90c398a7c083f91c348e53738a8e0327ee8b990007e58f8ca7adf.css?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:46:12 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:46:24 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 2006ms (Views: 2005.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/static_pages.self-65bf937f15b411cccf65f5abe25ffc2a4804d395d494d365cabfb74c9c57fe08.css?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:46:26 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:46:39 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 1780ms (Views: 1779.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/static_pages.self-28f9e43817f11c704d169d55a94ddabd0ed6a7ed8ef766b90039a8f4735b510a.css?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:46:41 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:46:49 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 2040ms (Views: 2038.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/static_pages.self-6246cc55c30b184d7dccc8d458eb11f4e5eec1cda094c77b0940d167a0a84198.css?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:51 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:46:52 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:46:52 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:46:52 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:46:52 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:46:52 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:46:57 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 1886ms (Views: 1885.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/static_pages.self-f269f29e7474402a39a450881f8c17c5cde373c237cbbd3e413838cd16c73de6.css?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:46:59 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:47:05 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 2023ms (Views: 2022.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/static_pages.self-7d05826be23f72f1dea9a4e936e43f72c10dbe4bd12d2573f509b73e73c10836.css?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:47:07 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:47:12 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 1777ms (Views: 1776.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/static_pages.self-e80ad74801693ba249431c8458558c22a0b97ae083cf86448cd2cb167a50ba65.css?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:47:14 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:47:21 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 2009ms (Views: 2007.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/static_pages.self-9438a6d0ef959793ce3effbd96d420d7ed80c6edb848e05c3b300bfb4bd99984.css?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:47:23 -0500
+
+
+Started POST "/set_auth" for ::1 at 2015-11-20 00:47:35 -0500
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AMNiDe+h/ThbpNGJAJ0LEtgcbX0OJA/67qfnOHF0faVb/uhuJYwx/ifuJR8M7+ucoXG3j8OFFpfyjXUNVXzxw==", "password"=>"[FILTERED]", "commit"=>"ENTER"}
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 200 OK in 1902ms (Views: 1901.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/static_pages.self-087a5744adcf85807012d9b6f6c1847d1a965ef1405b90a7ad540983826fd669.css?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500
+
+
+Started GET "/assets/application.self-9d69b93f1a42663620f3995dca6b18a4dd8b077df384ffe6276f0f027cb57bb8.js?body=1" for ::1 at 2015-11-20 00:47:37 -0500

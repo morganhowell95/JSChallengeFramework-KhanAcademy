@@ -48,6 +48,19 @@
 	text-align: center;
 }
 
+#console-title
+{
+	margin-top: -45px;
+	margin-bottom: 17px;
+}
+
+#structure-title
+{
+	font-size: 21px;
+    font-weight: 200;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .pass-enter
 {
 	display: block;
@@ -114,7 +127,32 @@
 	margin-left: 40px;
 	margin-bottom: 60px;
 	margin-top: 0;
+	position: relative;
 }
+
+
+#console-out
+{
+	background-color: rgba(50,50,50, .03);
+	margin-left: 35px;
+	margin-bottom: 60px;
+	margin-top: -30px;
+	border: 1px dashed black;
+	height: 100px;
+	border-top: none;
+
+	.console-title
+	{
+		float: left;
+		text-align: left;
+		margin-left: -35px;
+		margin-bottom: -40px;
+		padding: 0;
+		margin-top: 20px;
+
+	}
+}
+
 
 .levelselect-0
 {

@@ -6,9 +6,9 @@
  *= require codemirror
  *= require codemirror/modes/javascript
  *= require bootstrap
+ *= require acorn/dist/acorn
 */
 
-var roundn = require( 'acorn' );
 
 $(document).ready( function(){
 
@@ -100,5 +100,7 @@ $(document).ready( function(){
 		}
 	);
 
+	ast = acorn.parse("var function();");
+	console.log(ast);
 
 } );
