@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   root 'static_pages#access'
   post 'set_auth' => 'static_pages#set_auth'
   get 'home' => 'static_pages#home'
-
+  post 'check_js_code' => 'static_pages#check_js_code'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

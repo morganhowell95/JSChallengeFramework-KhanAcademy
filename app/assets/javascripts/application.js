@@ -12,24 +12,29 @@
 
 $(document).ready( function(){
 
+	//instance that represents codemirror text editor
 	var editor = CodeMirror.fromTextArea($('#editor')[0], {
 	  textWrapping: true,
 	  lineNumbers: true
 	});
 
+	//all keywords that must appear in code
 	$("#whitelist").click(function(evt) {
 		$(evt.target).toggleClass('success');
 	});
 
+	//all keywords that are banned from showing in the code
 	$("#blacklist").click(function(evt) {
 		$(evt.target).toggleClass('danger');
 	});
 
+	//button to reset all restrictions
 	$("#resetlist").click(function(evt) {
 		$('td').removeClass('danger');
 		$('td').removeClass('success');
 	});
 
+	//GUI for enforcing a particular structure on the supplied code
 	$("#structuremake").on('click', ".level-select",function(evt) {
 		var prev_level = parseInt($(evt.target).data("level"));
 		var next_level = prev_level+1;
@@ -110,9 +115,65 @@ $(document).ready( function(){
 		$('#progress').html(new_status);
 	}, 1000);
 
+	//Function that sends JavaScript data off to the APIs within our Rails controllers
+	//API will respond by giving some helpful advice, depending on supplied parameters
+	var request_analysis = function(){
+
+		//Acorn will throw a syntax error if one is found
+		try{
+
+			//collecting all keywords listed within the white list
+			$('td.success').each( function( index, value){
+				alert(value.innerHTML);
+			});
 
 
-	ast = acorn.parse("var function();");
-	console.log(ast);
+			var current_js = editor.getValue();
+			ast = acorn.parse(current_js);
+
+
+
+			//collectiong all keywords listed within the black list
+
+
+			//collecting a set structure hierarchy is one exists
+
+			//ajax request to our APIs where we return a response that represents response for
+			//user submitted JavaScript
+			var jqxhr = $.post( "/check_js_code",
+				{
+					name: "John",
+					time: "bout damn late"
+				})
+				.done(function(resp) {
+				alert( resp );
+				})
+				.fail(function(resp) {
+				alert( "error" );
+				})
+				.always(function(resp) {
+				alert( "complete" );
+				});
+		}
+		catch(err){
+			$('#output').html(err);
+		}
+	}
+
+
+	//ast = acorn.parse("var function();");
+	//console.log(ast);
+
+	//based on a set time interval after the user types, suggestions
+	//are automatically requested to be shown in the console.
+	//The request is made once the user makes a significant pause.
+	var timer;
+	editor.on("change", function(){
+		clearTimeout(timer);
+		timer = setTimeout(request_analysis, 1000)
+	});
+
+
+
 
 } );
