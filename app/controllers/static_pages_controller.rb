@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
 
   def set_auth
   	pass = params[:password]
-  	if pass == "KhanAcademyRocks!"
+  	if pass == "KMP_WHERS_UR_ID"
   		cookies[:logged_in] = "cookie_set: 1234567890!@"
   		render 'home'
   	else
