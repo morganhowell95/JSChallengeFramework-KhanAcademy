@@ -100,11 +100,15 @@ $(document).ready( function(){
 		}
 	);
 
-	setTimeout(function(){ 
-		var input_text = editor.getValue();
-		console.log(input_text);
-
-	 }, 3000);
+	//indicate that user feedback is being processed or waiting for a response
+	window.setInterval(function(){ 
+		var progress_dots = $('#progress').html().length;
+		progress_dots++;
+		progress_dots = (progress_dots+1)%5;
+		if (progress_dots == 0) progress_dots+=2;
+		var new_status = Array(progress_dots).join(".");
+		$('#progress').html(new_status);
+	}, 1000);
 
 
 
