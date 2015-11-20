@@ -56,12 +56,12 @@ $(document).ready( function(){
 			  </button>\
 			  </h2>\
 			  <ul class='dropdown-menu level-select levelselect-"+ String(next_level) +"'>\
-			    <li><a>for</a></li>\
-			    <li><a>if</a></li>\
-			    <li><a>switch</a></li>\
-			    <li><a>declare var</a></li>\
-			    <li><a>while</a></li>\
-			    <li><a>using 'this'</a></li>\
+			    <li><a data-key='for'>for</a></li>\
+			    <li><a data-key='if'>if</a></li>\
+			    <li><a data-key='switch'>switch</a></li>\
+			    <li><a data-key='var'>declare var</a></li>\
+			    <li><a data-key='while'>while</a></li>\
+			    <li><a data-key='this'>using 'this'</a></li>\
 			  </ul>\
 			</div>\
 			<h2 id='keyword-describe-"+ String(next_level) +"'> \
@@ -74,6 +74,7 @@ $(document).ready( function(){
 
 	$("#structuremake").on('click', ".dropdown-menu li a", function(evt) {
 		var key_word = evt.target.innerHTML;
+		$(evt.target).addClass("selected");
 		var button = $(evt.target).parent().parent().parent().children('button');
 		var level = $(button).data("level");
 		var $description =  $(evt.target).parent().parent().parent().parent().children('h2');
@@ -90,12 +91,12 @@ $(document).ready( function(){
 			  </button>\
 			  </h2>\
 			  <ul class='dropdown-menu level-select levelselect-"+ String(0) +"'>\
-			    <li><a>for</a></li>\
-			    <li><a>if</a></li>\
-			    <li><a>switch</a></li>\
-			    <li><a>declare var</a></li>\
-			    <li><a>while</a></li>\
-			    <li><a>using 'this'</a></li>\
+			    <li><a data-key='for'>for</a></li>\
+			    <li><a data-key='if'>if</a></li>\
+			    <li><a data-key='switch'>switch</a></li>\
+			    <li><a data-key='var'>declare var</a></li>\
+			    <li><a data-key='while'>while</a></li>\
+			    <li><a data-key='this'>using 'this'</a></li>\
 			  </ul>\
 			</div>\
 			<h2 id='keyword-describe-"+ String(0) +"'> \
@@ -123,20 +124,38 @@ $(document).ready( function(){
 		try{
 
 			//collecting all keywords listed within the white list
-			$('td.success').each( function( index, value){
-				alert(value.innerHTML);
+			var white_list = [];
+			$('td.success').each( function(index, value){
+				white_list.push($(value).data('key'));
 			});
+
+			//collectiong all keywords listed within the black list
+			var black_list = [];
+			$('td.danger').each( function(index, value){
+				black_list.push($(value).data('key'));
+			});
+
+			//collecting a set structure hierarchy, if one exists
+			var structure = [];
+			$('#structuremake .btn-group').each( function(index, value){
+				var selected_keyword = $(value).find('.selected').data('key');
+				if(selected_keyword){
+					structure.push(selected_keyword);
+				}
+				else{
+					//when structure level not specified, we will assume wildcard
+					structure.push("*");
+				}
+			});
+
+			console.log(structure);
+
 
 
 			var current_js = editor.getValue();
 			ast = acorn.parse(current_js);
-
-
-
-			//collectiong all keywords listed within the black list
-
-
-			//collecting a set structure hierarchy is one exists
+			
+			
 
 			//ajax request to our APIs where we return a response that represents response for
 			//user submitted JavaScript
