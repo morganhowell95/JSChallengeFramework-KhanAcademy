@@ -1,7 +1,0 @@
-I"U(function() {
-  $(function() {
-    return alert("alert");
-  });
-
-}).call(this);
-:ET

@@ -23,6 +23,75 @@
 	margin-left: 20px;
 }
 
+.access-control
+{
+	margin-top: 60px;
+	background-color: #333333;
+	width: 120%;
+	margin-left: -90px;
+	height: 650px;
+	z-index: 100;
+}
+
+.alert
+{
+	margin-top: -130px;
+}
+
+.pass-desc
+{
+	margin-left: 437px;
+	font-size: 20px;
+	color: white;
+	padding-top: 130px;
+	width: 420px;
+	text-align: center;
+}
+
+.pass-enter
+{
+	display: block;
+	margin-left: 441px;
+	margin-top: 40px;
+	width: 400px;
+	background: transparent;
+	color: white;
+	border-top: 0px solid white;
+	border-left: 0px solid white;
+	border-right: 0px solid white;
+	border-bottom: 4px solid white;
+	height: 100px;
+	font-size: 100px;
+	cursor: pointer;
+}
+
+.pass-enter:focus
+{
+	outline: none;
+}
+
+.pass-submit
+{
+	margin-top: 80px;
+	width: 400px;
+	margin-left: 441px;
+	color: white;
+	background-color: rgba(255,255,255, 0);
+	border: 2px solid white;
+
+}
+
+.pass-submit:hover
+{
+	margin-top: 80px;
+	width: 400px;
+	margin-left: 441px;
+	color: white;
+	background-color: rgba(255,255,255, .4);
+	border: 2px, solid, white;
+
+}
+
 #resetlist
 {
 	margin-bottom: 60px;

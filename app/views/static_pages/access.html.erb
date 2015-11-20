@@ -1,0 +1,14 @@
+<div class="access-control">
+<%= form_tag({controller: "static_pages", action: "set_auth"}, method: "post") do %>
+
+  <%= label_tag(:password, "PASSWORD REQUIRED FOR ACCESS:", class: "pass-desc") %>
+  <br>
+
+  <%= password_field_tag(:password, nil, class: "pass-enter") %>
+  <br>
+
+  <%= submit_tag("ENTER", class: "btn btn-default pass-submit") %>
+  <br>
+
+<% end %>
+</div>
