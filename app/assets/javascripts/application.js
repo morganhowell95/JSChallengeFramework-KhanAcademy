@@ -8,6 +8,8 @@
  *= require bootstrap
 */
 
+var roundn = require( 'acorn' );
+
 $(document).ready( function(){
 
 	var editor = CodeMirror.fromTextArea($('#editor')[0], {
