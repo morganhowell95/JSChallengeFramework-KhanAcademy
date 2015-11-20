@@ -100,6 +100,14 @@ $(document).ready( function(){
 		}
 	);
 
+	setTimeout(function(){ 
+		var input_text = editor.getValue();
+		console.log(input_text);
+
+	 }, 3000);
+
+
+
 	ast = acorn.parse("var function();");
 	console.log(ast);
 

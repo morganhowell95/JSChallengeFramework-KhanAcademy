@@ -52,6 +52,7 @@
 {
 	margin-top: -45px;
 	margin-bottom: 17px;
+	margin-left: -65px;
 }
 
 #structure-title
@@ -146,10 +147,20 @@
 		float: left;
 		text-align: left;
 		margin-left: -35px;
-		margin-bottom: -40px;
+		margin-bottom: 50px;
 		padding: 0;
-		margin-top: 20px;
+		margin-top: -50px;
 
+	}
+
+	.user-feedback
+	{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 15px;
+		height: 80px;
+		top: 0;
+		margin-top: 0;
+		margin-left: 50px;
 	}
 }
 
