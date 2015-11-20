@@ -13554,6 +13554,7 @@ ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
 
   Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
   Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (13.0ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for ::1 at 2015-11-18 20:47:08 -0500
@@ -20133,3 +20134,5 @@ Processing by StaticPagesController#set_auth as HTML
   Rendered static_pages/home.html.erb within layouts/application (0.1ms)
   Rendered layouts/_header.html.erb (0.9ms)
 Completed 200 OK in 116ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+=======
+>>>>>>> 709b74b8c1d71b5a55b0c80399c82e521b922237

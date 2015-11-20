@@ -1,10 +1,10 @@
 class StaticPagesController < ApplicationController
-
   def home
   	if cookies[:logged_in] != "cookie_set: 1234567890!@"
   		render :nothing => true, :status => 400
   	end 
   end
+
 
   def set_auth
   	pass = params[:password]
