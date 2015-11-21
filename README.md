@@ -4,13 +4,13 @@ We want to analyze student-generated JavaScript code (for our CS platform: https
 
 Planned Implementation
 ===========
-1. Init blank Rails project with just a homepage, make user enter a password before access
+1. Init blank Rails project with just a homepage, make user enter a password before access.
 
 2. Show text editor, along with dropdown to select three diff types of analysis
     a. Black list selector
     b. White list selector
-    c. Hierarchy that says what keywords we should expected embedded in others 
-      I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the relations to the current AST. 
+    c. Hierarchy that says what keywords we should expected embedded in others (descendant selectors)
+      I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the relations to the current AST recursively.
 
 3.Query info set and make POST request to Rails API for all UI selections, including white and black list.
 
@@ -18,15 +18,10 @@ Planned Implementation
 
 5.The errors will be gathered as a response to the front end and displayed for the user to see
 
-Dates of breaking the project apart:
+Reason for choosing Acorn over Esprima:
+==========
 
-Friday/13th:
-Simply put up rails projects, front end, password verification, and text editor, then link to Heroku and deploy live. Research documentation and functionality of both Espirma and Acorn. Begin thinking about which parser should be used. Just from the initial glance, I'm thinking Acorn - better support for traversing the AST.
-
-Saturday/14th:
-Finished up the front end. Began building APIs for analyzing JS code entered in codemirror instance using Acorn. 
-
-
+Acorn allowed me to simply clone the repos and strip everything I didn't need. I became really excited after finding an Esprima gem and spent a while doing all parsing server side, but found out that the library was flawed and a bit neglected in terms of maintenance. I didn't want to overcomplicate Sprockets and my current package management implementation with module loaders like browserify and npm, since I wasn't using that many JS modules. In terms of file size, I was able to strip down the extra libraries I didn't need (i.e. walk and parse_dammit) so that Acorn became significantly smaller than Esprima. Although Esprima's website had a nice UI and usage cases, I didn't find the documentation as comprehensive or extensive as Acorn. I was also able to modify Acorn's src and get some sensible results, whereas Esprima's src was a bit hard to follow. Methods of Esprima can be tested side by side with Acorn's (acorn/test/compare/esprima) where we could then test performance.
 
 Live Heroku Link:
 http://js-challenge.herokuapp.com/
