@@ -9,9 +9,7 @@
  *= require acorn/dist/acorn
 */
 
-
 $(document).ready( function(){
-
 	//instance that represents codemirror text editor
 	var editor = CodeMirror.fromTextArea($('#editor')[0], {
 	  textWrapping: true,
@@ -52,8 +50,7 @@ $(document).ready( function(){
 		<div>\
 		<div class='btn-group'> \
 			  <button type='button' class='level-select levelselect-"+ String(next_level) +" btn btn-default dropdown-toggle' data-toggle='dropdown' data-level='"+ String(next_level) +"' aria-haspopup='true' aria-expanded='false'>\
-			  Level "+ String(next_level) +"<span class='caret'></span>\
-			  </button>\
+			  Level "+ String(next_level) + "▾</button> \
 			  </h2>\
 			  <ul class='dropdown-menu level-select levelselect-"+ String(next_level) +"'>\
 			    <li><a data-key='ForStatement'>for</a></li>\
@@ -92,8 +89,7 @@ $(document).ready( function(){
 		<div>\
 		<div class='btn-group'> \
 			  <button type='button' class='level-select levelselect-"+ String(0) +" btn btn-default dropdown-toggle' data-toggle='dropdown' data-level='"+ String(0) +"' aria-haspopup='true' aria-expanded='false'>\
-			  Level "+ String(0) +"<span class='caret'></span>\
-			  </button>\
+			  Level "+ String(0) +"▾</button>\
 			  </h2>\
 			  <ul class='dropdown-menu level-select levelselect-"+ String(0) +"'>\
 			    <li><a data-key='ForStatement'>for</a></li>\
@@ -210,11 +206,6 @@ $(document).ready( function(){
 			var current_code = editor.getValue();
 			var ast = acorn.parse(current_code);
 			var tree = JSON.stringify(ast);
-			console.log(tree);
-			console.log(JSON.stringify(white_list));
-			console.log(JSON.stringify(black_list));
-			console.log(JSON.stringify(structure));
-
 
 			//AJAX request to our APIs where we return a response that represents suggestions for
 			//user submitted JavaScript, depends on state of lists and hierarchy maker
@@ -229,22 +220,16 @@ $(document).ready( function(){
 					update_console(resp);
 				})
 				.fail(function(resp) {
-					//alert( "error" );
+					$('#output').html("Error with API request");
 				})
 				.always(function(resp) {
-					//alert( "complete" );
+					//pass
 				});
 		}
 		catch(err){
 			$('#output').html(err);
 		}
 	}
-
-
-
-
-	//ast = acorn.parse("var function();");
-	//console.log(ast);
 
 	//based on a set time interval after the user types, suggestions
 	//are automatically requested to be shown in the console.
@@ -254,8 +239,4 @@ $(document).ready( function(){
 		clearTimeout(timer);
 		timer = setTimeout(request_analysis, 1000)
 	});
-
-
-
-
 } );

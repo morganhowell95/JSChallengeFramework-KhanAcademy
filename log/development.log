@@ -33830,3 +33830,150 @@ Started POST "/check_js_code" for ::1 at 2015-11-21 17:36:34 -0500
 Processing by StaticPagesController#check_js_code as */*
   Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":63,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":63,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":63,\"body\":[{\"type\":\"IfStatement\",\"start\":28,\"end\":58,\"test\":{\"type\":\"Literal\",\"start\":31,\"end\":35,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":36,\"end\":58,\"body\":[]},\"alternate\":null}]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"ForStatement\",\"IfStatement\",\"*\"]"}
 Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:50:44 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 315ms (Views: 313.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/assets/application.self-74b6f53e5dc7cab3a584f8880858e96dfed2149e4456875e6ffe2af52f7aa69b.js?body=1" for ::1 at 2015-11-21 17:50:45 -0500
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:51:41 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 283ms (Views: 282.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/application.self-fa99f89938cf93c59e509d3ecb926e661ec1b13b92e49fb3070e1a6100337dad.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:51:41 -0500
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:52:32 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 278ms (Views: 277.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
+
+
+Started GET "/assets/application.self-2774eb17edb634168396b03197e37e63fed010a44ccb9694ebecd18d4493ddcd.js?body=1" for ::1 at 2015-11-21 17:52:32 -0500
