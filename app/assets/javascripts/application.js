@@ -6,7 +6,6 @@
  *= require codemirror
  *= require codemirror/modes/javascript
  *= require bootstrap
- *= require acorn/dist/acorn
 */
 
 
@@ -122,7 +121,6 @@ $(document).ready( function(){
 
 		//Acorn will throw a syntax error if one is found
 		try{
-
 			//collecting all keywords listed within the white list
 			var white_list = [];
 			$('td.success').each( function(index, value){
@@ -148,30 +146,26 @@ $(document).ready( function(){
 				}
 			});
 
-			console.log(structure);
+			//user code on CodeMirror
+			var current_code = editor.getValue()
 
-
-
-			var current_js = editor.getValue();
-			ast = acorn.parse(current_js);
-			
-			
-
-			//ajax request to our APIs where we return a response that represents response for
-			//user submitted JavaScript
+			//AJAX request to our APIs where we return a response that represents suggestions for
+			//user submitted JavaScript, depends on state of lists and hierarchy maker
 			var jqxhr = $.post( "/check_js_code",
 				{
-					name: "John",
-					time: "bout damn late"
+					user_code: current_code,
+					white_list: JSON.stringify(white_list),
+					black_list: JSON.stringify(black_list),
+					structure: JSON.stringify(structure)
 				})
 				.done(function(resp) {
-				alert( resp );
+					// alert( resp );
 				})
 				.fail(function(resp) {
-				alert( "error" );
+					//alert( "error" );
 				})
 				.always(function(resp) {
-				alert( "complete" );
+					//alert( "complete" );
 				});
 		}
 		catch(err){
