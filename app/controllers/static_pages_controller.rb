@@ -30,6 +30,12 @@ class StaticPagesController < ApplicationController
   #In addition to w/b lists, it will be checked against an enforced structure if one is set.
   def check_js_code
 
+  	#checking for a malformed request
+  	if !params.has_key?("white_list") or !params.has_key?("black_list") or !params.has_key?("structure") or !params.has_key?("user_code")
+  		render :nothing => true, :status => 400
+  		return
+  	end
+
 	#user set paramters gathered from front end specification
 	white_list = JSON.parse(params['white_list'])
 	black_list = JSON.parse(params['black_list'])
@@ -87,9 +93,6 @@ class StaticPagesController < ApplicationController
 		# whenever next level is null, return 
 		body['body'].each do |x|
 			type = x['type']
-			p "TYPE:  #{type}"
-			p "INDEX: #{index}"
-			p "ORDER: #{order}"
 			if type == order[index]
 				if search_tree(x, index+1, order)
 					return true
@@ -100,29 +103,23 @@ class StaticPagesController < ApplicationController
 				end
 			end
 		end
-
 		return false
 	end
 
 	#start search at root with given descendant structure, ignoring wildcards
 	#ECMA TYPES:
-	#ForStatement'
-	#IfStatement'
-	#SwitchStatement'
-	#'WhileStatement'
-	#'ThisExpression'
+	#ForStatement
+	#IfStatement
+	#SwitchStatement
+	#WhileStatement
+	#ThisExpression
 	#VariableDeclaration
 	order = structure.select {|i| i!='*'}
 	index = 0
-	p "BEFORE FUNCTION CALL\n\n\n"
-	p "ORDER: #{order}"
-	puts "********************************************\n"
 	match_found = search_tree(ast, index, order)
 	response["structure"] = match_found
-	p "POST FUNCTION CALL: #{match_found}"
+	response["success"] = true
 
 	render json: response
   end
-
-
 end

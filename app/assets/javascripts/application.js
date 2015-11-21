@@ -129,53 +129,50 @@ $(document).ready( function(){
 		var structure = json_payload["structure"];
 
 		//building up console output for methods that are in white list but do not appear in program
-		console.out += "ERROR - white list offendors: ";
 		if(white_list.length>0){
-
+			console_out += "ERROR - white list offendors: ";
 			for(var i=0; i<white_list.length;i++){
 
 				if(i+1 < white_list.length){
-					console.out += String(white_list[i])+ ", ";
+					console_out += String(white_list[i])+ ", ";
 				}
 				else{
-					console.out += String(white_list[i] + "\n");
+					console_out += String(white_list[i] + "<br>");
 				}
 
 			}
 		}
 		else{
-			console.out += "White List - All cases pass! \n";
+			console_out += "White List - All cases pass! <br>";
 		}
 
 		//building up console output for methods that are in program but restricted in black list
-		console.out += "ERROR - black list offendors: ";
 		if(black_list.length>0){
-
+			console_out += "ERROR - black list offendors: ";
 			for(var i=0; i<black_list.length;i++){
 
 				if(i+1 < black_list.length){
-					console.out += String(black_list[i])+ ", ";
+					console_out += String(black_list[i])+ ", ";
 				}
 				else{
-					console.out += String(black_list[i] + "\n");
+					console_out += String(black_list[i] + "<br>");
 				}
 
 			}
 		}
 		else{
-			console.out += "Black List - All cases pass! \n";
+			console_out += "Black List - All cases pass! <br>";
 		}
 
 		if(structure){
-			console.out += "Descendant structure correct!";
+			console_out += "Descendant structure correct!";
 		}
 		else
 		{
-			console.out += "ERROR - No match for given descendant structure";
+			console_out += "ERROR - No match for given descendant structure";
 		}
 
-
-
+		$('#output').html(console_out);
 	};
 
 	//Function that sends JavaScript data off to the APIs within our Rails controllers
@@ -212,8 +209,11 @@ $(document).ready( function(){
 			//user code on CodeMirror
 			var current_code = editor.getValue();
 			var ast = acorn.parse(current_code);
-			console.log(ast);
 			var tree = JSON.stringify(ast);
+			console.log(tree);
+			console.log(JSON.stringify(white_list));
+			console.log(JSON.stringify(black_list));
+			console.log(JSON.stringify(structure));
 
 
 			//AJAX request to our APIs where we return a response that represents suggestions for
@@ -226,8 +226,7 @@ $(document).ready( function(){
 					structure: JSON.stringify(structure)
 				})
 				.done(function(resp) {
-					// alert( resp );
-					console.log(resp);
+					update_console(resp);
 				})
 				.fail(function(resp) {
 					//alert( "error" );

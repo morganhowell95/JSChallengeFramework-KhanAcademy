@@ -32819,3 +32819,1014 @@ Started POST "/check_js_code" for ::1 at 2015-11-21 15:03:41 -0500
 Processing by StaticPagesController#check_js_code as */*
   Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":34,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":28,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":28,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ThisExpression\"]", "structure"=>"[\"*\"]"}
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:49:10 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 668ms (Views: 663.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/application.self-9d2cccd22dc6560b1e6c879c6443aab9aca659f2ede2e94264555b906b22102a.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:49:10 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:49:31 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":27,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":27,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":27,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:50:50 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 271ms (Views: 270.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:50:50 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:50:50 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:50:50 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:50:50 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:50:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:50:50 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started GET "/assets/application.self-1779cd3076df1b26378295cfe0aff96865b405c38d36de9a2cd72cc343738692.js?body=1" for ::1 at 2015-11-21 15:50:51 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:51:04 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":32,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":30,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":30,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:51:53 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 256ms (Views: 255.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/application.self-501bcd009f1108033f8752229a70dba18122d8b00a34d954cb7a6d25ad02bdc2.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:51:53 -0500
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:52:50 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+Completed 200 OK in 2026ms (Views: 2024.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/application.self-501bcd009f1108033f8752229a70dba18122d8b00a34d954cb7a6d25ad02bdc2.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:52:52 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:53:01 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":0,\"body\":[]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 53ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:53:10 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":30,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":30,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":30,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:54:50 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 308ms (Views: 307.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/application.self-6da07bd9cf59a67e768efb710a3b385306eff5a3172df13da4d9dc7d1c81aad6.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:54:50 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:54:54 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":32,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":30,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":30,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:55:33 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 276ms (Views: 275.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/application.self-1b4e597d2250b3d06a0d995b3e6ce7d94f0e6b5e9d3ca54fbf80d33e4f80fc98.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:55:33 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:55:38 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":33,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":33,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":33,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:55:46 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":34,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":34,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":34,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:55:55 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":35,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":35,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":35,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:56:04 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":36,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":36,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":36,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:56:30 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":37,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":37,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":37,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:56:47 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":38,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":38,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":38,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:57:02 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":39,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":39,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":39,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"ForStatement\",\"IfStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:57:11 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":79,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":79,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":79,\"body\":[{\"type\":\"IfStatement\",\"start\":36,\"end\":71,\"test\":{\"type\":\"Literal\",\"start\":39,\"end\":43,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":44,\"end\":71,\"body\":[]},\"alternate\":null}]}}]}", "white_list"=>"[\"SwitchStatement\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"ForStatement\",\"IfStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 16:05:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started GET "/assets/application.self-1b4e597d2250b3d06a0d995b3e6ce7d94f0e6b5e9d3ca54fbf80d33e4f80fc98.js?body=1" for ::1 at 2015-11-21 16:05:09 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:05:15 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":2,\"body\":[]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:05:27 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":35,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":33,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":33,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:05:43 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":38,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":36,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":36,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:05:51 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":40,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":38,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":38,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:06:03 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":50,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":48,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":48,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:06:21 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":71,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":69,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":69,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:07:04 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":78,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":76,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":76,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"SwitchStatement\",\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:07:18 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":116,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":114,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":114,\"body\":[{\"type\":\"SwitchStatement\",\"start\":29,\"end\":63,\"discriminant\":{\"type\":\"Identifier\",\"start\":36,\"end\":37,\"name\":\"i\"},\"cases\":[]}]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"ForStatement\",\"SwitchStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:07:25 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":125,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":123,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":123,\"body\":[{\"type\":\"SwitchStatement\",\"start\":29,\"end\":72,\"discriminant\":{\"type\":\"Identifier\",\"start\":36,\"end\":37,\"name\":\"i\"},\"cases\":[{\"type\":\"SwitchCase\",\"start\":46,\"end\":54,\"consequent\":[],\"test\":null}]}]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"ForStatement\",\"SwitchStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:07:38 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":129,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":127,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":127,\"body\":[{\"type\":\"SwitchStatement\",\"start\":29,\"end\":76,\"discriminant\":{\"type\":\"Identifier\",\"start\":36,\"end\":37,\"name\":\"i\"},\"cases\":[{\"type\":\"SwitchCase\",\"start\":46,\"end\":54,\"consequent\":[],\"test\":null}]}]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"ForStatement\",\"SwitchStatement\",\"IfStatement\",\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:07:43 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":138,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":136,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":136,\"body\":[{\"type\":\"SwitchStatement\",\"start\":29,\"end\":85,\"discriminant\":{\"type\":\"Identifier\",\"start\":36,\"end\":37,\"name\":\"i\"},\"cases\":[{\"type\":\"SwitchCase\",\"start\":46,\"end\":54,\"consequent\":[],\"test\":null}]}]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"ForStatement\",\"SwitchStatement\",\"IfStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 16:29:14 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 289ms (Views: 287.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started GET "/assets/application.self-0af4b6206a1ae7a34cb25dae4e5519e8b19f2cee6e6e073b4dc584a5e31e2600.js?body=1" for ::1 at 2015-11-21 16:29:14 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:30:04 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 16:37:30 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 300ms (Views: 299.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/application.self-64756c374b02a9ca0e5199af5066c24c2569924df929d23e482996049c25f891.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 16:37:30 -0500
+
+
+Started GET "/home" for ::1 at 2015-11-21 16:37:44 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 326ms (Views: 324.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 16:37:44 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 16:37:45 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 16:37:45 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 16:37:45 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 16:37:45 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:37:48 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 16:49:51 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 16:49:51 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 16:49:57 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":6,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:25:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 125ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 17:25:01 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:25:52 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":6,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/static_pages_controller.rb:124:in `check_js_code'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.text.erb (27.1ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:26:51 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 136ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 17:26:52 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:26:56 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":8,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+  Rendered text template (0.0ms)
+Completed 400 Bad Request in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:27:38 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 151ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 17:27:38 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:27:43 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":6,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:28:44 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 144ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 17:28:44 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:28:49 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":6,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:31:46 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":7,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 17:33:02 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 135ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/static_pages.self-c8a195e1e60d3de54c95401f64608f5dfab0fafb5c5431588bf5da33a9cfdcd8.css?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started GET "/assets/application.self-6910900bafd0dbbbab93a057a05776257d3b483cc0e00736fab40a6cbd8e5158.js?body=1" for ::1 at 2015-11-21 17:33:02 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:33:07 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":6,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":6,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":5,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[\"VariableDeclaration\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:35:02 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":33,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":33,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":33,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[\"VariableDeclaration\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:35:10 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":62,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":62,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":62,\"body\":[{\"type\":\"IfStatement\",\"start\":28,\"end\":57,\"test\":{\"type\":\"Literal\",\"start\":31,\"end\":35,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":36,\"end\":57,\"body\":[]},\"alternate\":null}]}}]}", "white_list"=>"[]", "black_list"=>"[\"VariableDeclaration\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 17:36:34 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":63,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":63,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":63,\"body\":[{\"type\":\"IfStatement\",\"start\":28,\"end\":58,\"test\":{\"type\":\"Literal\",\"start\":31,\"end\":35,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":36,\"end\":58,\"body\":[]},\"alternate\":null}]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"ForStatement\",\"IfStatement\",\"*\"]"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)

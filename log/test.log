@@ -11,3 +11,575 @@ Completed 400 Bad Request in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
 SessionControllerTest: test_should_get_login
 --------------------------------------------
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+SessionControllerTest: test_should_get_login
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_login
+------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 24ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"params"=>{"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"params"=>{"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"params"=>{"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"params"=>{"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"params"=>{"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"params"=>{"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}}
+  Rendered text template (0.0ms)
+Completed 400 Bad Request in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 29ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[\"VariableDeclaration\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":62,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":62,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"}, \\\n  \t\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10, \\\n  \t\t\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":62,\"body\":[{\"type\":\"IfStatement\",\"start\":28,\"end\":57 \\\n  \t\t\t,\"test\":{\"type\":\"Literal\",\"start\":31,\"end\":35,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":36,\"end\":57,\"body\":[]},\"alternate\":null}]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"ForStatement\",\"IfStatement\",\"*\"]"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"ForStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_no_white_list_errors,_no_black_list_errors,_and_passing_hierarchy_struct
+----------------------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+StaticPagesControllerTest: test_should_load_password_page
+---------------------------------------------------------
+Processing by StaticPagesController#access as HTML
+  Rendered static_pages/access.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_passing_hierarchy_structure_match,_given_hierarchy_input
+------------------------------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":62,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":62,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":62,\"body\":[{\"type\":\"IfStatement\",\"start\":28,\"end\":57,\"test\":{\"type\":\"Literal\",\"start\":31,\"end\":35,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":36,\"end\":57,\"body\":[]},\"alternate\":null}]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"ForStatement\",\"IfStatement\",\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_and_black_list_errors
+------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[\"VariableDeclaration\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+StaticPagesControllerTest: test_should_show_a_failing_hierarchy_structure_match
+-------------------------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"ForStatement\",\"*\"]"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+StaticPagesControllerTest: test_should_verify_correct_password
+--------------------------------------------------------------
+Processing by StaticPagesController#set_auth as HTML
+  Parameters: {"params"=>{"password"=>"[FILTERED]"}}
+  Rendered static_pages/access.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------
+StaticPagesControllerTest: test_should_return_white_list_errors
+---------------------------------------------------------------
+Processing by StaticPagesController#check_js_code as HTML
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":9,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":3,\"end\":9,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":7,\"end\":8,\"id\":{\"type\":\"Identifier\",\"start\":7,\"end\":8,\"name\":\"x\"},\"init\":null}],\"kind\":\"var\"}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
