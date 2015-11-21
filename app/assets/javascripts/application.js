@@ -121,6 +121,63 @@ $(document).ready( function(){
 		$('#progress').html(new_status);
 	}, 1000);
 
+	//accepts json payload, usually from response of API, and updates console appropriately 
+	var update_console = function(json_payload){
+		var console_out = "";
+		var white_list = json_payload["white_list"];
+		var black_list = json_payload["black_list"];
+		var structure = json_payload["structure"];
+
+		//building up console output for methods that are in white list but do not appear in program
+		console.out += "ERROR - white list offendors: ";
+		if(white_list.length>0){
+
+			for(var i=0; i<white_list.length;i++){
+
+				if(i+1 < white_list.length){
+					console.out += String(white_list[i])+ ", ";
+				}
+				else{
+					console.out += String(white_list[i] + "\n");
+				}
+
+			}
+		}
+		else{
+			console.out += "White List - All cases pass! \n";
+		}
+
+		//building up console output for methods that are in program but restricted in black list
+		console.out += "ERROR - black list offendors: ";
+		if(black_list.length>0){
+
+			for(var i=0; i<black_list.length;i++){
+
+				if(i+1 < black_list.length){
+					console.out += String(black_list[i])+ ", ";
+				}
+				else{
+					console.out += String(black_list[i] + "\n");
+				}
+
+			}
+		}
+		else{
+			console.out += "Black List - All cases pass! \n";
+		}
+
+		if(structure){
+			console.out += "Descendant structure correct!";
+		}
+		else
+		{
+			console.out += "ERROR - No match for given descendant structure";
+		}
+
+
+
+	};
+
 	//Function that sends JavaScript data off to the APIs within our Rails controllers
 	//API will respond by giving some helpful advice, depending on supplied parameters
 	var request_analysis = function(){
@@ -158,6 +215,7 @@ $(document).ready( function(){
 			console.log(ast);
 			var tree = JSON.stringify(ast);
 
+
 			//AJAX request to our APIs where we return a response that represents suggestions for
 			//user submitted JavaScript, depends on state of lists and hierarchy maker
 			var jqxhr = $.post( "/check_js_code",
@@ -182,6 +240,8 @@ $(document).ready( function(){
 			$('#output').html(err);
 		}
 	}
+
+
 
 
 	//ast = acorn.parse("var function();");
