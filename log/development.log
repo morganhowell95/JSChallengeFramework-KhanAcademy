@@ -32457,3 +32457,365 @@ Processing by StaticPagesController#check_js_code as */*
   Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":161,\"body\":[{\"type\":\"VariableDeclaration\",\"start\":0,\"end\":8,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":4,\"end\":7,\"id\":{\"type\":\"Identifier\",\"start\":4,\"end\":5,\"name\":\"x\"},\"init\":{\"type\":\"Literal\",\"start\":6,\"end\":7,\"value\":5,\"raw\":\"5\"}}],\"kind\":\"var\"},{\"type\":\"WhileStatement\",\"start\":9,\"end\":161,\"test\":{\"type\":\"Literal\",\"start\":15,\"end\":19,\"value\":true,\"raw\":\"true\"},\"body\":{\"type\":\"BlockStatement\",\"start\":20,\"end\":161,\"body\":[{\"type\":\"IfStatement\",\"start\":24,\"end\":153,\"test\":{\"type\":\"Literal\",\"start\":27,\"end\":31,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":32,\"end\":153,\"body\":[{\"type\":\"IfStatement\",\"start\":37,\"end\":144,\"test\":{\"type\":\"Literal\",\"start\":40,\"end\":44,\"value\":true,\"raw\":\"true\"},\"consequent\":{\"type\":\"BlockStatement\",\"start\":45,\"end\":144,\"body\":[{\"type\":\"SwitchStatement\",\"start\":52,\"end\":130,\"discriminant\":{\"type\":\"Identifier\",\"start\":59,\"end\":60,\"name\":\"x\"},\"cases\":[{\"type\":\"SwitchCase\",\"start\":70,\"end\":77,\"consequent\":[],\"test\":{\"type\":\"Literal\",\"start\":75,\"end\":76,\"value\":0,\"raw\":\"0\"}},{\"type\":\"SwitchCase\",\"start\":95,\"end\":123,\"consequent\":[{\"type\":\"VariableDeclaration\",\"start\":113,\"end\":123,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":117,\"end\":122,\"id\":{\"type\":\"Identifier\",\"start\":117,\"end\":118,\"name\":\"y\"},\"init\":{\"type\":\"Literal\",\"start\":120,\"end\":122,\"value\":10,\"raw\":\"10\"}}],\"kind\":\"var\"}],\"test\":null}]}]},\"alternate\":null}]},\"alternate\":null}]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"WhileStatement\",\"IfStatement\",\"SwitchStatement\",\"*\"]"}
   Rendered text template (0.0ms)
 Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:55:28 -0500
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/static_pages_controller.rb:3:in `<class:StaticPagesController>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:55:48 -0500
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/static_pages_controller.rb:3:in `<class:StaticPagesController>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (19.4ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:56:42 -0500
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/static_pages_controller.rb:3:in `<class:StaticPagesController>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:56:43 -0500
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/static_pages_controller.rb:3:in `<class:StaticPagesController>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (25.5ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:57:25 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+Completed 200 OK in 398ms (Views: 388.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 14:57:36 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":0,\"body\":[]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `{"white_list":[],"black_list":[],"structure":true}_url' for #<StaticPagesController:0x007f986343c300>):
+  app/controllers/static_pages_controller.rb:124:in `check_js_code'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.text.erb (1.7ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.text.erb (89.2ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 14:57:50 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":27,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":27,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":27,\"body\":[]}}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `{"white_list":[],"black_list":[],"structure":true}_url' for #<StaticPagesController:0x007f985dc91010>):
+  app/controllers/static_pages_controller.rb:124:in `check_js_code'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.text.erb (28.1ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:58:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started GET "/assets/application.self-ea98fbd735dd561304c7d5700cf1805a05494f6dd820bb29018c98e12cb05f4e.js?body=1" for ::1 at 2015-11-21 14:58:40 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 14:58:44 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":29,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":27,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":27,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 14:59:03 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":30,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":27,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":27,\"body\":[]}}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 14:59:48 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 288ms (Views: 287.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started GET "/assets/application.self-cc23289e392db4fca69657f53672dbf2daf386e4d5a468cbdefa330209335f07.js?body=1" for ::1 at 2015-11-21 14:59:49 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 14:59:57 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":33,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":30,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":30,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:00:17 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":34,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":31,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":31,\"body\":[]}}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:00:31 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":35,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":31,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":31,\"body\":[]}}]}", "white_list"=>"[\"ForStatement\"]", "black_list"=>"[\"VariableDeclaration\"]", "structure"=>"[\"*\"]"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `push' for nil:NilClass):
+  app/controllers/static_pages_controller.rb:55:in `block in check_js_code'
+  app/controllers/static_pages_controller.rb:52:in `each'
+  app/controllers/static_pages_controller.rb:52:in `check_js_code'
+
+
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /Users/mjhowell/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.text.erb (23.3ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:01:53 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:01:53 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 15:01:53 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:01:53 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started GET "/assets/application.self-cc23289e392db4fca69657f53672dbf2daf386e4d5a468cbdefa330209335f07.js?body=1" for ::1 at 2015-11-21 15:01:54 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:01:58 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":35,\"body\":[{\"type\":\"ForStatement\",\"start\":3,\"end\":31,\"init\":{\"type\":\"VariableDeclaration\",\"start\":7,\"end\":14,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":11,\"end\":14,\"id\":{\"type\":\"Identifier\",\"start\":11,\"end\":12,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":13,\"end\":14,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":15,\"end\":19,\"left\":{\"type\":\"Identifier\",\"start\":15,\"end\":16,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":17,\"end\":19,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":20,\"end\":23,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":20,\"end\":21,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":24,\"end\":31,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-21 15:02:15 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/codemirror.self-ad46b7c60257f57968b51ce996b9d3aee0126d124e88b581a667751da08a5bb2.css?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/codemirror/themes/night.self-ee5455537171c8a94c5b26ccb444955eb0cf47af9a11842b7f1db4907dff7e80.css?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/static_pages.self-766c0ab9d2a6fc623561b5d50571a109537358bc55a5c3c569e26cc1ac6d5b8d.css?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/codemirror.self-b0c7f6f666573dfc3c2e8cc2d1aab479ffba1bfe33b8e51467f056f855d71ba3.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/codemirror/modes/javascript.self-cb559c50c1196c96becf41feda7f1609fd4a6c2f01bb440b4d18c9c3e55cc040.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/acorn/dist/acorn.self-82a7103a5517565a32ccc73cc820d7c8b647f4f9089821b9f24b2c4bd4a5cf9e.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started GET "/assets/application.self-cc23289e392db4fca69657f53672dbf2daf386e4d5a468cbdefa330209335f07.js?body=1" for ::1 at 2015-11-21 15:02:15 -0500
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:02:18 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":38,\"body\":[{\"type\":\"ForStatement\",\"start\":6,\"end\":34,\"init\":{\"type\":\"VariableDeclaration\",\"start\":10,\"end\":17,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":14,\"end\":17,\"id\":{\"type\":\"Identifier\",\"start\":14,\"end\":15,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":16,\"end\":17,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":18,\"end\":22,\"left\":{\"type\":\"Identifier\",\"start\":18,\"end\":19,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":20,\"end\":22,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":23,\"end\":26,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":23,\"end\":24,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":27,\"end\":34,\"body\":[]}}]}", "white_list"=>"[]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:02:22 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":37,\"body\":[{\"type\":\"ForStatement\",\"start\":5,\"end\":33,\"init\":{\"type\":\"VariableDeclaration\",\"start\":9,\"end\":16,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":13,\"end\":16,\"id\":{\"type\":\"Identifier\",\"start\":13,\"end\":14,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":15,\"end\":16,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":17,\"end\":21,\"left\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":19,\"end\":21,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":22,\"end\":25,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":22,\"end\":23,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":26,\"end\":33,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:02:39 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":32,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":28,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":28,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:03:27 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":33,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":28,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":28,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ForStatement\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/check_js_code" for ::1 at 2015-11-21 15:03:41 -0500
+Processing by StaticPagesController#check_js_code as */*
+  Parameters: {"user_code"=>"{\"type\":\"Program\",\"start\":0,\"end\":34,\"body\":[{\"type\":\"ForStatement\",\"start\":0,\"end\":28,\"init\":{\"type\":\"VariableDeclaration\",\"start\":4,\"end\":11,\"declarations\":[{\"type\":\"VariableDeclarator\",\"start\":8,\"end\":11,\"id\":{\"type\":\"Identifier\",\"start\":8,\"end\":9,\"name\":\"i\"},\"init\":{\"type\":\"Literal\",\"start\":10,\"end\":11,\"value\":0,\"raw\":\"0\"}}],\"kind\":\"var\"},\"test\":{\"type\":\"BinaryExpression\",\"start\":12,\"end\":16,\"left\":{\"type\":\"Identifier\",\"start\":12,\"end\":13,\"name\":\"i\"},\"operator\":\"<\",\"right\":{\"type\":\"Literal\",\"start\":14,\"end\":16,\"value\":10,\"raw\":\"10\"}},\"update\":{\"type\":\"UpdateExpression\",\"start\":17,\"end\":20,\"operator\":\"++\",\"prefix\":false,\"argument\":{\"type\":\"Identifier\",\"start\":17,\"end\":18,\"name\":\"i\"}},\"body\":{\"type\":\"BlockStatement\",\"start\":21,\"end\":28,\"body\":[]}}]}", "white_list"=>"[\"SwitchStatement\",\"ThisExpression\",\"IfStatement\"]", "black_list"=>"[\"ThisExpression\"]", "structure"=>"[\"*\"]"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)

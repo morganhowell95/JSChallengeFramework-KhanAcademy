@@ -169,6 +169,7 @@ $(document).ready( function(){
 				})
 				.done(function(resp) {
 					// alert( resp );
+					console.log(resp);
 				})
 				.fail(function(resp) {
 					//alert( "error" );

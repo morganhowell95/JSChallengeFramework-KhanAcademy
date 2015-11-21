@@ -18,6 +18,7 @@ gem 'jbuilder',                '2.2.3'
 gem 'sdoc',                    '0.4.0', group: :doc
 gem 'net-ssh'
 gem 'codemirror-rails'
+gem 'responders', '2.0'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
