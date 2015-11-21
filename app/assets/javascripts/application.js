@@ -6,6 +6,7 @@
  *= require codemirror
  *= require codemirror/modes/javascript
  *= require bootstrap
+ *= require acorn/dist/acorn
 */
 
 
@@ -55,12 +56,12 @@ $(document).ready( function(){
 			  </button>\
 			  </h2>\
 			  <ul class='dropdown-menu level-select levelselect-"+ String(next_level) +"'>\
-			    <li><a data-key='for'>for</a></li>\
-			    <li><a data-key='if'>if</a></li>\
-			    <li><a data-key='switch'>switch</a></li>\
-			    <li><a data-key='var'>declare var</a></li>\
-			    <li><a data-key='while'>while</a></li>\
-			    <li><a data-key='this'>using 'this'</a></li>\
+			    <li><a data-key='ForStatement'>for</a></li>\
+			    <li><a data-key='IfStatement'>if</a></li>\
+			    <li><a data-key='SwitchStatement'>switch</a></li>\
+			    <li><a data-key='VariableDeclaration'>declare var</a></li>\
+			    <li><a data-key='WhileStatement'>while</a></li>\
+			    <li><a data-key='ThisExpression'>using 'this'</a></li>\
 			  </ul>\
 			</div>\
 			<h2 id='keyword-describe-"+ String(next_level) +"'> \
@@ -72,7 +73,12 @@ $(document).ready( function(){
 
 
 	$("#structuremake").on('click', ".dropdown-menu li a", function(evt) {
+		//fetching the selected keyword and removing previous selections
 		var key_word = evt.target.innerHTML;
+		var $parent = $($(evt.target).parent().parent());
+		$parent.children().children().removeClass("selected");
+
+		//selecting new keyword and setting appropriate level
 		$(evt.target).addClass("selected");
 		var button = $(evt.target).parent().parent().parent().children('button');
 		var level = $(button).data("level");
@@ -90,12 +96,12 @@ $(document).ready( function(){
 			  </button>\
 			  </h2>\
 			  <ul class='dropdown-menu level-select levelselect-"+ String(0) +"'>\
-			    <li><a data-key='for'>for</a></li>\
-			    <li><a data-key='if'>if</a></li>\
-			    <li><a data-key='switch'>switch</a></li>\
-			    <li><a data-key='var'>declare var</a></li>\
-			    <li><a data-key='while'>while</a></li>\
-			    <li><a data-key='this'>using 'this'</a></li>\
+			    <li><a data-key='ForStatement'>for</a></li>\
+			    <li><a data-key='IfStatement'>if</a></li>\
+			    <li><a data-key='SwitchStatement'>switch</a></li>\
+			    <li><a data-key='VariableDeclaration'>declare var</a></li>\
+			    <li><a data-key='WhileStatement'>while</a></li>\
+			    <li><a data-key='ThisExpression'>using 'this'</a></li>\
 			  </ul>\
 			</div>\
 			<h2 id='keyword-describe-"+ String(0) +"'> \
@@ -147,13 +153,16 @@ $(document).ready( function(){
 			});
 
 			//user code on CodeMirror
-			var current_code = editor.getValue()
+			var current_code = editor.getValue();
+			var ast = acorn.parse(current_code);
+			console.log(ast);
+			var tree = JSON.stringify(ast);
 
 			//AJAX request to our APIs where we return a response that represents suggestions for
 			//user submitted JavaScript, depends on state of lists and hierarchy maker
 			var jqxhr = $.post( "/check_js_code",
 				{
-					user_code: current_code,
+					user_code: tree,
 					white_list: JSON.stringify(white_list),
 					black_list: JSON.stringify(black_list),
 					structure: JSON.stringify(structure)
