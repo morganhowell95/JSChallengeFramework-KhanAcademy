@@ -91,14 +91,16 @@ class StaticPagesController < ApplicationController
 
 		#loop until aray is found
 		# whenever next level is null, return 
-		body['body'].each do |x|
-			type = x['type']
+		body['body'].each do |node|
+			type = node['type']
+			puts "type: #{type}"
+			puts "index: #{index}"
 			if type == order[index]
-				if search_tree(x, index+1, order)
+				if search_tree(node, index+1, order)
 					return true
 				end
 			else
-				if search_tree(x, index, order)
+				if search_tree(node, index, order)
 					return true
 				end
 			end
@@ -116,6 +118,7 @@ class StaticPagesController < ApplicationController
 	#VariableDeclaration
 	order = structure.select {|i| i!='*'}
 	index = 0
+	print "order: #{order}"
 	match_found = search_tree(ast, index, order)
 	response["structure"] = match_found
 	response["success"] = true
