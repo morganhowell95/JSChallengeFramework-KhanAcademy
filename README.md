@@ -8,11 +8,11 @@ Planned Implementation
 
 2. Show text editor, along with dropdown to select three diff types of analysis
 
-    a. Black list selector
+    a. Black list selector: keywords that are not allowed in user code
     
-    b. White list selector
+    b. White list selector: keywords that must be in user code
     
-    c. Hierarchy that says what keywords we should expected embedded in others (descendant selectors)
+    c. Hierarchy that says what keywords we should expect embedded in others (descendant selectors)
     
       I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the
     relations to the current AST recursively.
