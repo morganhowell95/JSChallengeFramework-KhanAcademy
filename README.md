@@ -7,10 +7,16 @@ Planned Implementation
 1. Init blank Rails project with just a homepage, make user enter a password before access.
 
 2. Show text editor, along with dropdown to select three diff types of analysis
+
     a. Black list selector
+    
     b. White list selector
+    
     c. Hierarchy that says what keywords we should expected embedded in others (descendant selectors)
-      I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the relations to the current AST recursively.
+    
+      I. Implementation will involve fetching user input on the UI, sending this to the API along with JS code, then comparing the
+    relations to the current AST recursively.
+    
 
 3.Query info set and make POST request to Rails API for all UI selections, including white and black list.
 
@@ -25,13 +31,13 @@ Acorn allowed me to simply clone the repos and strip everything I didn't need. I
 
 Usage
 =======
-select keywords in white list that have to be present in JS code.
+-select keywords in white list that have to be present in JS code.
 
-select keywords in black list that can not be present in JS code.
+-select keywords in black list that can not be present in JS code.
 
-Use the hierarchy constructor to force descendant relations between certain keywords.
+-Use the hierarchy constructor to force descendant relations between certain keywords.
 
-*Notes:
+*Please note:
 
 currently the submit button does nothing, the API request is made when a change event is triggered in the text editor
 levels in the hierarchy structure correspond to differing level of parent-descendant relations
