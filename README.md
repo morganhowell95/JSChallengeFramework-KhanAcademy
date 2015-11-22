@@ -26,9 +26,13 @@ Acorn allowed me to simply clone the repos and strip everything I didn't need. I
 Usage
 =======
 select keywords in white list that have to be present in JS code.
+
 select keywords in black list that can not be present in JS code.
+
 Use the hierarchy constructor to force descendant relations between certain keywords.
+
 *Notes:
+
 currently the submit button does nothing, the API request is made when a change event is triggered in the text editor
 levels in the hierarchy structure correspond to differing level of parent-descendant relations
 There are slight nuances in keywords selected in white list/back list and the actualy keywords in JS code. For instance "for statement" in the current implementation refers to a for loop of type:
