@@ -93,8 +93,6 @@ class StaticPagesController < ApplicationController
 		# whenever next level is null, return 
 		body['body'].each do |node|
 			type = node['type']
-			puts "type: #{type}"
-			puts "index: #{index}"
 			if type == order[index]
 				if search_tree(node, index+1, order)
 					return true
